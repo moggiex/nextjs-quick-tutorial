@@ -4,7 +4,7 @@ import Card from '../../components/Card/Card';
 import Nav from '../../components/Nav/Nav';
 import DefaultLayout from '../../layout/default';
 
-export default function cats() {
+export default function Cats() {
 	const [cats, setCats] = useState([]);
 
 	const fetchCats = async () => {
